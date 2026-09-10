@@ -116,8 +116,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDownload }) => {
                   height={160}
                   className="w-full h-auto object-contain"
                 />
-                <div className="absolute -top-2 -left-4 bg-white dark:bg-stone-800 px-2.5 py-1 rounded-full shadow-md border border-[#E8E0D4] dark:border-stone-700 text-[11px] font-handwriting font-bold text-stone-800 dark:text-stone-200 rotate-[-4deg] whitespace-nowrap">
-                  Pause &amp; breathe 🌿
+                <div className="absolute -top-2 -left-4 bg-white dark:bg-stone-800 px-2.5 py-1 rounded-full shadow-md border border-[#E8E0D4] dark:border-stone-700 text-[11px] font-handwriting font-bold text-stone-800 dark:text-stone-200 rotate-[-4deg] whitespace-nowrap flex items-center gap-1">
+                  <span>Pause &amp; breathe</span>
+                  <Feather className="w-3 h-3 text-[#3A7D3A]" />
                 </div>
               </div>
 

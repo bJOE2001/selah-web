@@ -99,7 +99,7 @@ export const ScriptureCards: React.FC = () => {
 
                 <div className="border-t border-[#E8E0D4] pt-4 flex items-center justify-between text-xs text-stone-500">
                   <span className="font-serif italic">King James Version</span>
-                  <span className="font-handwriting text-lg text-stone-700">Selah Devotional 🐑</span>
+                  <span className="font-handwriting text-lg text-stone-700">Selah Devotional</span>
                 </div>
               </div>
             )}
@@ -153,7 +153,7 @@ export const ScriptureCards: React.FC = () => {
 
                 <div className="border-t border-stone-800 pt-4 flex items-center justify-between text-xs text-stone-400">
                   <span className="font-mono text-[#D4A84B]/80">Midnight Edition</span>
-                  <span className="font-handwriting text-lg text-[#FAF7F2]">Selah 🐑</span>
+                  <span className="font-handwriting text-lg text-[#FAF7F2]">Selah Devotional</span>
                 </div>
               </div>
             )}

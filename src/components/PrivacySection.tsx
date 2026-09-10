@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ShieldCheck, HardDrive, Ban, Cloud, ArrowRight } from "lucide-react";
+import { ShieldCheck, HardDrive, Ban, Cloud, ArrowRight, KeyRound } from "lucide-react";
 
 export const PrivacySection: React.FC = () => {
   return (
@@ -33,8 +33,9 @@ export const PrivacySection: React.FC = () => {
 
               {/* Hand-drawn note tag */}
               <div className="mt-4 inline-block bg-white dark:bg-stone-800 px-4 py-2 rounded-xl border border-[#E8E0D4] dark:border-stone-700 shadow-sm rotate-[-1deg]">
-                <span className="font-handwriting text-lg text-stone-800 dark:text-stone-200">
-                  Guarding your sacred reflections 🗝️
+                <span className="font-handwriting text-lg text-stone-800 dark:text-stone-200 flex items-center gap-1.5">
+                  <span>Guarding your sacred reflections</span>
+                  <KeyRound className="w-4 h-4 text-[#3A7D3A]" />
                 </span>
               </div>
 

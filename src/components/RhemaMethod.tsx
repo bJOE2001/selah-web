@@ -195,8 +195,9 @@ export const RhemaMethod: React.FC = () => {
 
                 {/* Hand-drawn encouragement tag */}
                 <div className="absolute -bottom-3 right-4 bg-white dark:bg-stone-800 px-3 py-1 rounded-full shadow-md border border-[#E8E0D4] dark:border-stone-700 rotate-2">
-                  <span className="font-handwriting text-base font-bold text-stone-800 dark:text-stone-200">
-                    Step {currentStep.stepNumber}: {currentStep.name} ✨
+                  <span className="font-handwriting text-base font-bold text-stone-800 dark:text-stone-200 flex items-center gap-1.5">
+                    <span>Step {currentStep.stepNumber}: {currentStep.name}</span>
+                    <Sparkles className="w-3.5 h-3.5 text-[#D4A84B]" />
                   </span>
                 </div>
               </div>

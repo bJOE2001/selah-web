@@ -12,7 +12,8 @@ import {
   CheckCircle2, 
   Lock,
   Compass,
-  Bookmark
+  Bookmark,
+  Feather
 } from "lucide-react";
 
 export const FeatureShowcase: React.FC = () => {
@@ -196,8 +197,9 @@ export const FeatureShowcase: React.FC = () => {
 
                 {/* Encouraging milestone note in Caveat */}
                 <div className="absolute -bottom-4 -left-6 bg-white dark:bg-stone-800 px-4 py-2.5 rounded-xl shadow-paper border border-[#E8E0D4] dark:border-stone-700 rotate-[-2deg]">
-                  <p className="font-handwriting text-lg text-stone-800 dark:text-stone-200">
-                    &ldquo;Every morning paused is grace.&rdquo; 🌿
+                  <p className="font-handwriting text-lg text-stone-800 dark:text-stone-200 flex items-center gap-1.5">
+                    <span>&ldquo;Every morning paused is grace.&rdquo;</span>
+                    <Feather className="w-3.5 h-3.5 text-[#3A7D3A]" />
                   </p>
                 </div>
               </div>

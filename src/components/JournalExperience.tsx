@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { PenLine, Bookmark, Sparkles, CheckCircle } from "lucide-react";
+import { PenLine, Bookmark, Sparkles, CheckCircle, Feather } from "lucide-react";
 
 export const JournalExperience: React.FC = () => {
   return (
@@ -148,8 +148,9 @@ export const JournalExperience: React.FC = () => {
               {/* Bottom Stamp Seal */}
               <div className="pt-4 flex items-center justify-between text-xs text-stone-400">
                 <span className="font-mono">Encrypted &amp; Saved Locally</span>
-                <span className="font-handwriting text-lg text-stone-600 dark:text-stone-400">
-                  Signed, Selah 🌿
+                <span className="font-handwriting text-lg text-stone-600 dark:text-stone-400 flex items-center gap-1.5">
+                  Signed, Selah
+                  <Feather className="w-3.5 h-3.5 text-[#3A7D3A]" />
                 </span>
               </div>
 

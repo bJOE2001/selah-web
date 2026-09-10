@@ -57,8 +57,9 @@ export const MascotSection: React.FC = () => {
                     height={240}
                     className="w-full h-auto object-contain"
                   />
-                  <div className="absolute -top-4 -left-4 bg-white dark:bg-stone-800 px-3 py-1 rounded-full shadow-md border border-[#E8E0D4] dark:border-stone-700 text-xs font-handwriting font-bold text-stone-800 dark:text-stone-200 rotate-[-4deg]">
-                    Always patient 🐑
+                  <div className="absolute -top-4 -left-4 bg-white dark:bg-stone-800 px-3 py-1 rounded-full shadow-md border border-[#E8E0D4] dark:border-stone-700 text-xs font-handwriting font-bold text-stone-800 dark:text-stone-200 rotate-[-4deg] flex items-center gap-1.5">
+                    <span>Always patient</span>
+                    <Heart className="w-3 h-3 text-[#C46246]" />
                   </div>
                 </div>
 
@@ -74,7 +75,7 @@ export const MascotSection: React.FC = () => {
               </div>
 
               <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-stone-900 dark:text-stone-100">
-                Meet Selah. 🐑
+                Meet Selah.
               </h2>
 
               <p className="font-serif italic text-lg sm:text-xl text-[#3A7D3A] dark:text-[#52A752]">

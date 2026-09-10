@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Heart } from "lucide-react";
+import { Heart, Feather } from "lucide-react";
 
 export const Footer: React.FC = () => {
   return (
@@ -24,9 +24,8 @@ export const Footer: React.FC = () => {
                   className="object-cover"
                 />
               </div>
-              <span className="font-serif text-2xl font-bold tracking-tight text-stone-900 dark:text-stone-100 flex items-center gap-1.5">
+              <span className="font-serif text-2xl font-bold tracking-tight text-stone-900 dark:text-stone-100">
                 Selah
-                <span className="text-base font-normal">🐑</span>
               </span>
             </Link>
             <p className="mt-2 font-serif italic text-sm text-[#3A7D3A] dark:text-[#52A752]">
@@ -73,8 +72,9 @@ export const Footer: React.FC = () => {
           <div className="flex items-center gap-2">
             <span>Made with intention.</span>
             <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#3A7D3A]" />
-            <span className="font-handwriting text-sm text-stone-700 dark:text-stone-300">
-              Grace &amp; Peace 🌿
+            <span className="font-handwriting text-sm text-stone-700 dark:text-stone-300 flex items-center gap-1.5">
+              Grace &amp; Peace
+              <Feather className="w-3.5 h-3.5 text-[#3A7D3A]" />
             </span>
           </div>
         </div>
