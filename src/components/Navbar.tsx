@@ -72,7 +72,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenDownload }) => {
               <span className="text-sm font-normal text-stone-500 dark:text-stone-400">🐑</span>
             </span>
             <span className="block text-[10px] sm:text-[11px] font-sans text-stone-500 dark:text-stone-400 tracking-wider uppercase -mt-1 font-medium">
-              Daily Bible &amp; Devotions
+              Bible &amp; Devotional
             </span>
           </div>
         </Link>

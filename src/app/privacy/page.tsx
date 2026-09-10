@@ -5,7 +5,7 @@ import { ArrowLeft, ShieldCheck, Lock, HardDrive, Ban, Cloud } from "lucide-reac
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Selah: Daily Bible & Devotions",
+  title: "Privacy Policy — Selah: Bible & Devotional",
   description: "Our local-first commitment: your personal prayers, journals, and reflections belong exclusively to you.",
 };
 
@@ -41,7 +41,7 @@ export default function PrivacyPage() {
                   className="object-cover"
                 />
               </div>
-              <span className="font-serif text-xl font-bold">Selah: Daily Bible &amp; Devotions</span>
+              <span className="font-serif text-xl font-bold">Selah: Bible &amp; Devotional</span>
             </div>
 
             <h1 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight">

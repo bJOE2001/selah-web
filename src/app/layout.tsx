@@ -28,13 +28,14 @@ const caveat = Caveat({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://selahdevotions.app"),
-  title: "Selah: Daily Bible & Devotions — Pause. Reflect. Praise.",
+  title: "Selah: Bible & Devotional — Pause. Reflect. Praise.",
   description:
     "Pause, reflect, and praise. Selah is a peaceful Bible reading and devotional journaling companion designed for intentional Scripture meditation, guided Rhema reflection, and private contemplation.",
   keywords: [
     "Selah",
     "Bible app",
     "daily devotions",
+    "Bible and devotional",
     "Rhema method",
     "devotional journaling",
     "KJV Bible",
@@ -44,9 +45,9 @@ export const metadata: Metadata = {
     "offline Bible"
   ],
   authors: [{ name: "Selah Team" }],
-  creator: "Selah: Daily Bible & Devotions",
+  creator: "Selah: Bible & Devotional",
   openGraph: {
-    title: "Selah: Daily Bible & Devotions — Pause. Reflect. Praise.",
+    title: "Selah: Bible & Devotional — Pause. Reflect. Praise.",
     description:
       "A quieter way to meet Scripture. Complete offline KJV, guided Rhema journaling, habit tracking, and local-first privacy.",
     url: "https://selahdevotions.app",
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
         url: "/assets/images/play-store-feature-1024x500.png",
         width: 1024,
         height: 500,
-        alt: "Selah: Daily Bible & Devotions",
+        alt: "Selah: Bible & Devotional",
       },
     ],
     locale: "en_US",
@@ -64,7 +65,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Selah: Daily Bible & Devotions",
+    title: "Selah: Bible & Devotional",
     description: "A quieter way to meet Scripture. Pause. Reflect. Praise.",
     images: ["/assets/images/play-store-feature-1024x500.png"],
   },
