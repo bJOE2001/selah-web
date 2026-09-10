@@ -1,0 +1,267 @@
+export interface RhemaStep {
+  id: string;
+  stepNumber: number;
+  name: string;
+  question: string;
+  color: string;
+  bgLight: string;
+  ribbonClass: string;
+  mascotImage: string;
+  sampleInput: string;
+  guidance: string;
+}
+
+export const RHEMA_STEPS: RhemaStep[] = [
+  {
+    id: "rhema",
+    stepNumber: 1,
+    name: "RHEMA",
+    question: "What verse arrested your heart today?",
+    color: "#C46246",
+    bgLight: "#FBECE8",
+    ribbonClass: "bg-[#C46246] text-white",
+    mascotImage: "/assets/images/mascot/selah-mascot-rhema.png",
+    sampleInput: "“Be still, and know that I am God: I will be exalted among the heathen, I will be exalted in the earth.” — Psalm 46:10",
+    guidance: "Read slowly without rushing. Pause when a specific phrase or word tugs at your spirit."
+  },
+  {
+    id: "reflection",
+    stepNumber: 2,
+    name: "REFLECTION",
+    question: "What does this reveal about God's character and truth?",
+    color: "#5B8C5A",
+    bgLight: "#EEF4EE",
+    ribbonClass: "bg-[#5B8C5A] text-white",
+    mascotImage: "/assets/images/mascot/selah-mascot-reflection.png",
+    sampleInput: "God does not ask me to orchestrate every outcome. He invites me to lay down striving because His sovereignty already holds the nations, the earth, and my small hours.",
+    guidance: "Look beyond your immediate circumstance. Ask: Who is God here? What is His heart?"
+  },
+  {
+    id: "motivation",
+    stepNumber: 3,
+    name: "MOTIVATION",
+    question: "Why does your heart need this today?",
+    color: "#D4A84B",
+    bgLight: "#FAF3E4",
+    ribbonClass: "bg-[#D4A84B] text-white",
+    mascotImage: "/assets/images/mascot/selah-mascot-motivation.png",
+    sampleInput: "My mind has been noisy with deadlines, expectations, and unspoken anxieties. My spirit needs permission to breathe, release control, and trust that God is working quietly.",
+    guidance: "Be completely honest. God welcomes the unfiltered truth of where your soul sits today."
+  },
+  {
+    id: "application",
+    stepNumber: 4,
+    name: "APPLICATION",
+    question: "What will you carry into today?",
+    color: "#4A7C9B",
+    bgLight: "#EBF2F6",
+    ribbonClass: "bg-[#4A7C9B] text-white",
+    mascotImage: "/assets/images/mascot/selah-mascot-application.png",
+    sampleInput: "Whenever I feel tension rising during meetings today, I will take three deep breaths, whisper 'Be still, He is God', and choose calm over urgency.",
+    guidance: "Select one tangible, achievable posture or action you can weave into the next twelve hours."
+  }
+];
+
+export interface FeatureItem {
+  id: string;
+  tag: string;
+  title: string;
+  tagline: string;
+  description: string;
+  bullets: string[];
+  screenshot?: string;
+  mascot?: string;
+  accentColor: string;
+}
+
+export const FEATURES: FeatureItem[] = [
+  {
+    id: "bible",
+    tag: "Scripture First",
+    title: "The Word, without the noise.",
+    tagline: "Pure King James Scripture designed with reverent editorial clarity.",
+    description: "Read the ancient text without notification badges, unsolicited banners, or algorithmic feeds. Enjoy complete offline access anywhere you retreat.",
+    bullets: [
+      "Complete offline King James Version (KJV)",
+      "Red-letter words of Christ",
+      "Instant book, chapter & verse navigation",
+      "Adjustable literary serif typography & line height",
+      "Gentle color highlighters & ribbon bookmarks"
+    ],
+    screenshot: "/assets/images/store_screenshots/screenshot_2_bible.png",
+    accentColor: "#3A7D3A"
+  },
+  {
+    id: "rhema",
+    tag: "The Rhema Method",
+    title: "Turn a verse into a conversation.",
+    tagline: "Four gentle steps that bridge ancient truth into lived reality.",
+    description: "Instead of staring at a blank page, our guided four-part rhythm prompts your heart to listen, reflect, uncover inner motivations, and craft one quiet daily application.",
+    bullets: [
+      "Step-by-step guided prompt cards",
+      "No rush — save drafts and return anytime",
+      "Visual ribbon headers for clear spiritual thinking",
+      "Encouraging companion cues from Selah the Lamb"
+    ],
+    screenshot: "/assets/images/store_screenshots/screenshot_4_write.png",
+    accentColor: "#C46246"
+  },
+  {
+    id: "habits",
+    tag: "Sacred Consistency",
+    title: "Small moments become sacred habits.",
+    tagline: "Build a quiet daily rhythm without guilt or vanity streaks.",
+    description: "Track your devotional journey through organic milestones, serene weekly rings, and a visual calendar that celebrates every morning you paused.",
+    bullets: [
+      "Weekly devotional rhythm rings",
+      "Gentle habit milestones without punishing resets",
+      "Quiet streak tracking with warm encouragement",
+      "Morning and evening stillness reminders"
+    ],
+    screenshot: "/assets/images/store_screenshots/screenshot_1_home.png",
+    accentColor: "#D4A84B"
+  },
+  {
+    id: "journal",
+    tag: "Aesthetic Notebook",
+    title: "A journal that feels like yours.",
+    tagline: "Tactile college-ruled pages designed like fine stationery.",
+    description: "Revisit past seasons of prayer, see how God answered quiet questions from months ago, and flip through ruled pages with washi tape accents.",
+    bullets: [
+      "Dual experience: Notebook View & Timeline View",
+      "College-ruled texture with genuine stationery warmth",
+      "Full text search across all personal reflections",
+      "Filter by bookmarked and milestone entries"
+    ],
+    screenshot: "/assets/images/store_screenshots/screenshot_3_journal.png",
+    accentColor: "#5B8C5A"
+  },
+  {
+    id: "cards",
+    tag: "Scripture Keepsakes",
+    title: "Keep the verse close.",
+    tagline: "Turn your reflections into tangible, shareable works of art.",
+    description: "Render any verse or journal excerpt into high-resolution cards with three timeless paper themes. Perfect for lockscreens, prints, or sharing with friends.",
+    bullets: [
+      "3 authentic themes: Classic Linen, Minimal Clean, Midnight Gold",
+      "Editorial typography with quotation ornaments",
+      "High-resolution image export",
+      "Zero watermarks with Selah Grace"
+    ],
+    accentColor: "#C46246"
+  },
+  {
+    id: "privacy",
+    tag: "Sacred Privacy",
+    title: "Your reflections are yours.",
+    tagline: "Built local-first because your prayers are between you and God.",
+    description: "Your journal entries never live on ad servers or track your behavior. Stored securely on your device SQLite database with optional encrypted cloud backup.",
+    bullets: [
+      "Local-first SQLite storage on your phone",
+      "Zero third-party advertisements or trackers",
+      "Biometric lock (Face ID / Fingerprint)",
+      "Optional client-encrypted Cloud Vault backup"
+    ],
+    screenshot: "/assets/images/mascot-guardian-key-transparent.png",
+    accentColor: "#4A7C9B"
+  }
+];
+
+export interface PricingPlan {
+  id: string;
+  name: string;
+  tagline: string;
+  badge?: string;
+  monthlyPrice?: string;
+  annualPrice?: string;
+  lifetimePrice?: string;
+  period?: string;
+  features: string[];
+  cta: string;
+  popular?: boolean;
+}
+
+export const PRICING_PLANS: PricingPlan[] = [
+  {
+    id: "free",
+    name: "Begin",
+    tagline: "The essential quiet sanctuary for everyone.",
+    monthlyPrice: "$0",
+    annualPrice: "$0",
+    period: "Forever free",
+    features: [
+      "Complete offline KJV Bible",
+      "Distraction-free Scripture reader",
+      "Guided Rhema 4-step journaling",
+      "Local device journal history",
+      "Basic habit & streak tracking",
+      "Standard shareable Scripture cards"
+    ],
+    cta: "Start Free"
+  },
+  {
+    id: "grace",
+    name: "Selah Grace",
+    tagline: "Full access to our encrypted sanctuary and fine covers.",
+    badge: "Most Cherished",
+    popular: true,
+    monthlyPrice: "$3.99",
+    annualPrice: "$29.99",
+    period: "/ year ($2.50/mo)",
+    features: [
+      "Everything in Begin",
+      "Encrypted Cloud Vault (Zero-knowledge backup)",
+      "Seamless multi-device synchronization",
+      "Unlimited journal notebooks & custom covers",
+      "Watermark-free high-res card export",
+      "Peaceful ambient sanctuary soundscapes",
+      "Biometric app lock & PIN protection"
+    ],
+    cta: "Begin 14-Day Free Trial"
+  },
+  {
+    id: "patron",
+    name: "Patron",
+    tagline: "One timeless investment to support ongoing craftsmanship.",
+    badge: "One-Time",
+    lifetimePrice: "$79",
+    period: "Single payment, lifetime access",
+    features: [
+      "Everything in Selah Grace for life",
+      "No recurring subscriptions, ever",
+      "Exclusive vintage leather journal theme",
+      "Handcrafted Patron badge on journal covers",
+      "Direct line to the craft team & future features",
+      "Includes all upcoming translation releases"
+    ],
+    cta: "Become a Patron"
+  }
+];
+
+export interface Testimonial {
+  quote: string;
+  author: string;
+  context: string;
+  location: string;
+}
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    quote: "Selah has transformed my mornings from frantic to peaceful. The Rhema method gives my prayers a gentle structure that I actually look forward to every sunrise.",
+    author: "Hannah M.",
+    context: "Early Reader & Daily Devotionalist",
+    location: "Nashville, TN"
+  },
+  {
+    quote: "It doesn't feel like an app; it feels like opening a cherished leather notebook. Knowing my deepest prayers stay on my device without trackers gives me true peace of mind.",
+    author: "David R.",
+    context: "Bible Study Leader",
+    location: "Edinburgh, UK"
+  },
+  {
+    quote: "The quiet aesthetic and the sweet Selah lamb companion bring a tear to my eye. There are no loud notifications, just God's Word waiting whenever I'm ready.",
+    author: "Elena C.",
+    context: "Mother & Educator",
+    location: "Toronto, Canada"
+  }
+];

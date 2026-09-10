@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --paper-bg: #FAF7F2;
+    --paper-line: #E8E0D4;
+    --ink-primary: #2C2520;
+    --ink-secondary: #6B5E54;
+    --brand-green: #3A7D3A;
+    --terracotta: #C46246;
+    --gold: #D4A84B;
+    --steel: #4A7C9B;
+  }
+
+  .dark {
+    --paper-bg: #151311;
+    --paper-line: #2B2621;
+    --ink-primary: #F6F0EB;
+    --ink-secondary: #A99F94;
+    --brand-green: #52A752;
+    --terracotta: #E07A5F;
+    --gold: #E6BC5C;
+    --steel: #6098BD;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--paper-bg);
+    color: var(--ink-primary);
+  }
+
+  ::selection {
+    background-color: #C46246;
+    color: #FAF7F2;
+  }
+}
+
+/* Tactile Paper Texture and Grain */
+.bg-paper-grain {
+  background-color: #FAF7F2;
+  background-image: 
+    radial-gradient(#E8E0D4 0.75px, transparent 0.75px),
+    radial-gradient(#E8E0D4 0.75px, #FAF7F2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.dark .bg-paper-grain {
+  background-color: #151311;
+  background-image: 
+    radial-gradient(#2B2621 0.75px, transparent 0.75px),
+    radial-gradient(#2B2621 0.75px, #151311 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+/* College Ruled Notebook Lines */
+.ruled-lines {
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 31px,
+    #E8E0D4 31px,
+    #E8E0D4 32px
+  );
+  line-height: 32px;
+}
+
+.dark .ruled-lines {
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 31px,
+    #2B2621 31px,
+    #2B2621 32px
+  );
+  line-height: 32px;
+}
+
+/* Vintage Washi Tape */
+.washi-tape {
+  background: rgba(232, 224, 212, 0.75);
+  box-shadow: 0 1px 3px rgba(44, 37, 32, 0.08);
+  backdrop-filter: blur(2px);
+}
+
+.washi-tape-terracotta {
+  background: rgba(196, 98, 70, 0.85);
+  box-shadow: 0 1px 3px rgba(44, 37, 32, 0.12);
+}
+
+.washi-tape-sage {
+  background: rgba(91, 140, 90, 0.85);
+  box-shadow: 0 1px 3px rgba(44, 37, 32, 0.12);
+}
+
+.washi-tape-gold {
+  background: rgba(212, 168, 75, 0.85);
+  box-shadow: 0 1px 3px rgba(44, 37, 32, 0.12);
+}
+
+.washi-tape-steel {
+  background: rgba(74, 124, 155, 0.85);
+  box-shadow: 0 1px 3px rgba(44, 37, 32, 0.12);
+}
+
+/* Deckled Edge / Stationery subtle tear */
+.deckled-bottom {
+  mask-image: radial-gradient(circle at 10px -5px, transparent 12px, white 13px);
+  mask-size: 20px 20px;
+  mask-repeat: repeat-x;
+  mask-position: bottom;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+
+.dark ::-webkit-scrollbar-track {
+  background: #151311;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4C9BC;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B8AFA6;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
