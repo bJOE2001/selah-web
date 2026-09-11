@@ -42,13 +42,13 @@ export const Footer: React.FC = () => {
               Features
             </Link>
             <Link href="#rhema" className="hover:text-[#3A7D3A] dark:hover:text-[#52A752] transition-colors">
-              Rhema Method
+              Method
             </Link>
             <Link href="#journal" className="hover:text-[#3A7D3A] dark:hover:text-[#52A752] transition-colors">
               Journal
             </Link>
-            <Link href="#membership" className="hover:text-[#3A7D3A] dark:hover:text-[#52A752] transition-colors">
-              Membership
+            <Link href="#pricing" className="hover:text-[#3A7D3A] dark:hover:text-[#52A752] transition-colors">
+              Pricing
             </Link>
             <Link href="/privacy" className="hover:text-[#3A7D3A] dark:hover:text-[#52A752] transition-colors">
               Privacy

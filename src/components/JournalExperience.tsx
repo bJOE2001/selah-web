@@ -63,7 +63,7 @@ export const JournalExperience: React.FC = () => {
               <div className="mb-8">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-[#C46246] text-white text-xs font-bold tracking-wider uppercase mb-2 shadow-sm">
                   <span>1. Rhema</span>
-                  <span className="opacity-70 font-normal">| The Arresting Verse</span>
+                  <span className="opacity-70 font-normal">| The Verse That Speaks</span>
                 </div>
                 <div className="p-4 rounded-xl bg-white dark:bg-stone-900 border border-[#E8E0D4] dark:border-stone-800 shadow-sm mt-2">
                   <p className="font-serif italic text-base sm:text-lg text-stone-900 dark:text-stone-100 leading-relaxed">

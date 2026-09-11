@@ -44,7 +44,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDownload }) => {
                 onClick={onOpenDownload}
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-full text-base font-medium bg-[#2C2520] hover:bg-stone-800 dark:bg-[#FAF7F2] dark:text-[#2C2520] dark:hover:bg-white text-[#FAF7F2] shadow-paper hover:shadow-paper-lift transition-all transform hover:-translate-y-0.5 active:translate-y-0"
               >
-                <span>Begin Your Selah</span>
+                <span>Download App</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
 
@@ -94,7 +94,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenDownload }) => {
                 {/* Phone screen container */}
                 <div className="relative rounded-[32px] overflow-hidden bg-[#FAF7F2] aspect-[9/19.5] border border-stone-800/20 shadow-inner">
                   <Image
-                    src="/assets/images/store_screenshots/screenshot_1_home.png"
+                    src="/assets/images/store_screenshots/screenshot_1.jpg"
                     alt="Selah App Daily Dashboard Mockup"
                     width={400}
                     height={850}

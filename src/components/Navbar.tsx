@@ -34,9 +34,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenDownload }) => {
 
   const navLinks = [
     { name: "Features", href: "#features" },
-    { name: "Rhema Method", href: "#rhema" },
+    { name: "Method", href: "#rhema" },
     { name: "Journal", href: "#journal" },
-    { name: "Membership", href: "#membership" },
+    { name: "Pricing", href: "#pricing" },
     { name: "Privacy", href: "#privacy" },
   ];
 

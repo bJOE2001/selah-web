@@ -64,7 +64,7 @@ export default function PrivacyPage() {
                 Selah is built upon an unyielding <strong>local-first</strong> philosophy. Your personal spiritual journey, daily prayers, journal entries, and devotional reflections are private between you and God.
               </p>
               <p>
-                By default, all your reflections, devotional notes, reading progress, and bookmarks are stored <strong>locally on your device</strong> in an offline SQLite database. You can use the core features of Selah completely offline without ever creating an account.
+                By default, all your reflections, devotional notes, reading progress, and bookmarks are stored <strong>locally on your device</strong>. You can use the core features of Selah completely offline without ever creating an account.
               </p>
             </section>
 

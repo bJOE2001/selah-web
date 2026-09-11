@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { 
   BookOpen, 
   Sparkles, 
@@ -50,8 +51,8 @@ export const FeatureShowcase: React.FC = () => {
                 <div className="rounded-[40px] p-3 bg-[#24201D] shadow-2xl border border-stone-700/60 ring-1 ring-black/30">
                   <div className="rounded-[30px] overflow-hidden bg-[#FAF7F2] aspect-[9/19.5]">
                     <Image
-                      src="/assets/images/store_screenshots/screenshot_2_bible.png"
-                      alt="Selah Bible Reader with KJV and Red-Letter Words"
+                      src="/assets/images/store_screenshots/screenshot_3.jpg"
+                      alt="Selah Bible Reader and Translation Picker"
                       width={400}
                       height={850}
                       className="w-full h-full object-cover object-top"
@@ -85,7 +86,7 @@ export const FeatureShowcase: React.FC = () => {
               
               <ul className="space-y-3 pt-2">
                 {[
-                  "Permanently bundled offline KJV SQLite database",
+                  "Permanently bundled offline KJV Bible",
                   "Downloadable modern translations (NLT, NIV, ESV, NKJV, etc.)",
                   "Red-letter text for the words of Christ",
                   "Fast book, chapter, and verse navigation",
@@ -101,31 +102,31 @@ export const FeatureShowcase: React.FC = () => {
 
           </div>
 
-          {/* FEATURE 2: Guided Rhema Journaling */}
+          {/* FEATURE 2: The Rhema Method */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             
             {/* Copy */}
             <div className="lg:col-span-6 space-y-6">
               <div className="inline-block text-xs font-bold uppercase tracking-widest text-[#C46246] dark:text-[#E07A5F]">
-                02 / Guided Journaling
+                02 / The Rhema Method
               </div>
               <h3 className="font-serif text-3xl sm:text-4xl font-bold text-stone-900 dark:text-stone-100 leading-tight">
                 Turn a verse into a conversation.
               </h3>
               <p className="font-sans text-stone-600 dark:text-stone-300 text-base sm:text-lg leading-relaxed">
-                The blank page can feel overwhelming. Our guided four-part Rhema rhythm gives your prayerful thoughts a gentle, sacred scaffold.
+                Writing a devotion is simple. Our four-part rhythm guides you from reading Scripture to uncovering what God is saying, checking your heart, and putting His Word into daily practice.
               </p>
               
               <ul className="space-y-3 pt-2">
                 {[
-                  "Prompt cards designed around listening and honesty",
-                  "Four focused steps: Rhema, Reflection, Motivation, Application",
-                  "Automatic saving so you can pause and return without losing a thought",
-                  "Gentle guidance from Selah to keep your quiet time joyful"
+                  { step: "1. Rhema", desc: "The verse that speaks directly to your heart today" },
+                  { step: "2. Reflect", desc: "Unpack what God is teaching you through the passage" },
+                  { step: "3. Motivate", desc: "Examine why your heart needed this reminder" },
+                  { step: "4. Apply", desc: "Craft one practical step or prayer to live out in faith" }
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-sm sm:text-base text-stone-700 dark:text-stone-300">
                     <CheckCircle2 className="w-5 h-5 text-[#C46246] shrink-0 mt-0.5" />
-                    <span>{item}</span>
+                    <span><strong className="text-stone-900 dark:text-stone-100 font-semibold">{item.step}:</strong> {item.desc}</span>
                   </li>
                 ))}
               </ul>
@@ -141,7 +142,7 @@ export const FeatureShowcase: React.FC = () => {
               </div>
             </div>
 
-            {/* Visual: Guided Write screen */}
+            {/* Visual: Rhema Guide Modal screen */}
             <div className="lg:col-span-6 flex justify-center">
               <div className="relative w-full max-w-[320px] sm:max-w-[340px]">
                 {/* Washi tape on phone edge */}
@@ -150,24 +151,13 @@ export const FeatureShowcase: React.FC = () => {
                 <div className="rounded-[40px] p-3 bg-[#24201D] shadow-2xl border border-stone-700/60 ring-1 ring-black/30">
                   <div className="rounded-[30px] overflow-hidden bg-[#FAF7F2] aspect-[9/19.5]">
                     <Image
-                      src="/assets/images/store_screenshots/screenshot_4_write.png"
-                      alt="Selah Guided Rhema Journaling Screen"
+                      src="/assets/images/store_screenshots/screenshot_2.jpg"
+                      alt="The Rhema Method Guide with Selah in the App"
                       width={400}
                       height={850}
                       className="w-full h-full object-cover object-top"
                     />
                   </div>
-                </div>
-
-                {/* Mascot artwork preview */}
-                <div className="absolute -bottom-6 -right-6 w-24 sm:w-28 filter drop-shadow-md">
-                  <Image
-                    src="/assets/images/mascot-writing-journal-transparent.png"
-                    alt="Selah Mascot Writing Devotional Journal"
-                    width={120}
-                    height={120}
-                    className="object-contain"
-                  />
                 </div>
               </div>
             </div>
@@ -186,7 +176,7 @@ export const FeatureShowcase: React.FC = () => {
                 <div className="rounded-[40px] p-3 bg-[#24201D] shadow-2xl border border-stone-700/60 ring-1 ring-black/30">
                   <div className="rounded-[30px] overflow-hidden bg-[#FAF7F2] aspect-[9/19.5]">
                     <Image
-                      src="/assets/images/store_screenshots/screenshot_5_calendar.png"
+                      src="/assets/images/store_screenshots/screenshot_8.jpg"
                       alt="Selah Calendar and Devotional Habit Streaks"
                       width={400}
                       height={850}
@@ -270,8 +260,8 @@ export const FeatureShowcase: React.FC = () => {
                 <div className="rounded-[40px] p-3 bg-[#24201D] shadow-2xl border border-stone-700/60 ring-1 ring-black/30">
                   <div className="rounded-[30px] overflow-hidden bg-[#FAF7F2] aspect-[9/19.5]">
                     <Image
-                      src="/assets/images/store_screenshots/screenshot_3_journal.png"
-                      alt="Selah Journal History View"
+                      src="/assets/images/store_screenshots/screenshot_5.jpg"
+                      alt="Selah Journal Book View with Ruled Devotional Page"
                       width={400}
                       height={850}
                       className="w-full h-full object-cover object-top"
@@ -295,13 +285,13 @@ export const FeatureShowcase: React.FC = () => {
                   Your reflections are yours.
                 </h4>
                 <p className="font-sans text-stone-600 dark:text-stone-300 text-base leading-relaxed max-w-2xl">
-                  Your prayers are deeply sacred between you and God. Selah is built local-first on SQLite: your entries live on your device by default, with zero advertising and optional encrypted cloud backup when you choose.
+                  Your prayers are deeply sacred between you and God. Selah is built local-first: your entries live on your device by default, with zero advertising and optional encrypted cloud backup when you choose.
                 </p>
                 <div className="pt-2">
-                  <a href="#privacy" className="text-sm font-bold text-[#3A7D3A] hover:underline inline-flex items-center gap-1.5">
+                  <Link href="/privacy" className="text-sm font-bold text-[#3A7D3A] hover:underline inline-flex items-center gap-1.5">
                     <span>Read our privacy commitment</span>
                     <span>&rarr;</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
 

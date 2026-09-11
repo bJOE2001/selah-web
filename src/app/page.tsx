@@ -58,7 +58,7 @@ export default function HomePage() {
         {/* 8. Privacy Section: Local-first and guardian key */}
         <PrivacySection />
 
-        {/* 10. Membership / Pricing: Stationery membership cards */}
+        {/* 10. Pricing: Stationery pricing cards */}
         <PricingSection onOpenDownload={handleOpenDownload} />
 
         {/* 11. Testimonials: Early reader reflections */}

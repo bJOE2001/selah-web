@@ -16,7 +16,7 @@ export const RHEMA_STEPS: RhemaStep[] = [
     id: "rhema",
     stepNumber: 1,
     name: "RHEMA",
-    question: "What verse arrested your heart today?",
+    question: "What verse spoke to your heart today?",
     color: "#C46246",
     bgLight: "#FBECE8",
     ribbonClass: "bg-[#C46246] text-white",
@@ -88,7 +88,7 @@ export const FEATURES: FeatureItem[] = [
       "Instant book, chapter & verse navigation",
       "Gentle color highlighters & ribbon bookmarks"
     ],
-    screenshot: "/assets/images/store_screenshots/screenshot_2_bible.png",
+    screenshot: "/assets/images/store_screenshots/screenshot_3.jpg",
     accentColor: "#3A7D3A"
   },
   {
@@ -98,12 +98,12 @@ export const FEATURES: FeatureItem[] = [
     tagline: "Four gentle steps that bridge ancient truth into lived reality.",
     description: "Instead of staring at a blank page, our guided four-part rhythm prompts your heart to listen, reflect, uncover inner motivations, and craft one quiet daily application.",
     bullets: [
-      "Step-by-step guided prompt cards",
-      "No rush — save drafts and return anytime",
-      "Visual ribbon headers for clear spiritual thinking",
-      "Encouraging companion cues from Selah the Lamb"
+      "1. Rhema: Capture the verse that speaks directly to your heart today",
+      "2. Reflect: Unpack what God is teaching you through the passage",
+      "3. Motivate: Examine why your heart needed this reminder",
+      "4. Apply: Craft one practical step or prayer to live out in faith"
     ],
-    screenshot: "/assets/images/store_screenshots/screenshot_4_write.png",
+    screenshot: "/assets/images/store_screenshots/screenshot_2.jpg",
     accentColor: "#C46246"
   },
   {
@@ -118,7 +118,7 @@ export const FEATURES: FeatureItem[] = [
       "Quiet streak tracking with warm encouragement",
       "Morning and evening stillness reminders"
     ],
-    screenshot: "/assets/images/store_screenshots/screenshot_1_home.png",
+    screenshot: "/assets/images/store_screenshots/screenshot_8.jpg",
     accentColor: "#D4A84B"
   },
   {
@@ -133,7 +133,7 @@ export const FEATURES: FeatureItem[] = [
       "College-ruled texture with genuine stationery warmth",
       "Full text search across all personal reflections"
     ],
-    screenshot: "/assets/images/store_screenshots/screenshot_3_journal.png",
+    screenshot: "/assets/images/store_screenshots/screenshot_5.jpg",
     accentColor: "#5B8C5A"
   },
   {
@@ -141,9 +141,9 @@ export const FEATURES: FeatureItem[] = [
     tag: "Sacred Privacy",
     title: "Your reflections are yours.",
     tagline: "Built local-first because your prayers are between you and God.",
-    description: "Your journal entries never live on ad servers or track your behavior. Stored securely on your device SQLite database with optional encrypted cloud backup.",
+    description: "Your journal entries never live on ad servers or track your behavior. Stored securely on your device with optional encrypted cloud backup.",
     bullets: [
-      "Local-first SQLite storage on your phone",
+      "Local-first private storage on your phone",
       "Zero third-party advertisements or trackers",
       "Works 100% offline without creating an account",
       "Optional client-encrypted Cloud Vault backup"

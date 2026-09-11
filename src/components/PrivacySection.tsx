@@ -73,7 +73,7 @@ export const PrivacySection: React.FC = () => {
                     Local-First Architecture
                   </h3>
                   <p className="font-sans text-sm text-stone-600 dark:text-stone-400 mt-1 leading-relaxed">
-                    Your journal stays on your device by default. Powered by local SQLite storage, your data exists on your phone, not in corporate ad databases.
+                    Your journal stays on your device by default. Powered by local-first storage, your data exists on your phone, not on corporate servers.
                   </p>
                 </div>
               </div>

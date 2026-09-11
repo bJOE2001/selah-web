@@ -46,7 +46,7 @@ export const PhilosophySection: React.FC = () => {
               n a world filled with endless scrolling, notification alerts, and algorithmic noise, Selah creates a quiet room to simply stop. A sanctuary where you are not the product, and your attention is not on auction.
             </p>
             <p className="font-sans text-base text-stone-600 dark:text-stone-400 leading-relaxed font-normal">
-              Read a passage. Notice the verse that arrests your heart. Reflect on what it reveals. Write honestly. Then carry one small, enduring truth into your day.
+              Read a passage. Notice the verse that speaks to your heart. Reflect on what it reveals. Write honestly. Then carry one small, enduring truth into your day.
             </p>
           </div>
 
@@ -67,7 +67,7 @@ export const PhilosophySection: React.FC = () => {
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full overflow-hidden border border-[#E8E0D4] bg-[#FAF7F2]">
                     <Image
-                      src="/assets/images/mascot-whispering_transparent.png"
+                      src="/assets/images/mascot_whispering_transparent.png"
                       alt="Selah Whispering Quietly"
                       width={32}
                       height={32}

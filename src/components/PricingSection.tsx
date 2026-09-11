@@ -11,14 +11,14 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
   const [billingCycle, setBillingCycle] = useState<"annual" | "monthly">("annual");
 
   return (
-    <section id="membership" className="py-24 sm:py-32 bg-paper-grain relative overflow-hidden">
+    <section id="pricing" className="py-24 sm:py-32 bg-paper-grain relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#FAF3E4] dark:bg-stone-800 text-stone-700 dark:text-stone-300 text-xs font-semibold tracking-wider uppercase mb-3 border border-[#E8E0D4] dark:border-stone-700 shadow-sm">
             <Feather className="w-3.5 h-3.5 text-[#D4A84B]" />
-            Membership &amp; Craft
+            Pricing &amp; Plans
           </div>
 
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-stone-900 dark:text-stone-100">
@@ -26,7 +26,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
           </h2>
 
           <p className="mt-4 font-sans text-stone-600 dark:text-stone-400 text-base sm:text-lg max-w-2xl mx-auto">
-            Begin freely, or support the ongoing craftsmanship of Selah with our premium memberships.
+            Begin freely, or support the ongoing craftsmanship of Selah with our premium plans.
           </p>
 
           {/* Monthly / Annual Billing Toggle */}
@@ -58,7 +58,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
           </div>
         </div>
 
-        {/* 3 Stationery Membership Cards */}
+        {/* 3 Stationery Pricing Cards */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch max-w-6xl mx-auto">
           
           {/* TIER 1: BEGIN (Free) */}
