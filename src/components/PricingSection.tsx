@@ -93,11 +93,14 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
                   "Guided 4-step Rhema devotional journaling",
                   "Local device journal history & search",
                   "Daily habit streaks & devotion calendar",
-                  "Verse bookmarks & color highlighters"
+                  "Verse bookmarks & color highlighters",
+                  "100% ad-free & distraction-free forever"
                 ].map((f, i) => (
                   <li key={i} className="flex items-start gap-2.5">
                     <Check className="w-4 h-4 text-[#3A7D3A] shrink-0 mt-0.5" />
-                    <span>{f}</span>
+                    <span className={i === 6 ? "font-semibold text-stone-900 dark:text-stone-100" : ""}>
+                      {f}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -152,7 +155,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
                   "Automatic Cloud Backup (Never lose an entry)",
                   "Seamless multi-device synchronization",
                   "Handcrafted luxury leather & vintage covers",
-                  "100% ad-free & distraction-free sanctuary"
+                  "Directly sustains our independent ad-free mission"
                 ].map((f, i) => (
                   <li key={i} className="flex items-start gap-2.5">
                     <Check className="w-4 h-4 text-[#3A7D3A] shrink-0 mt-0.5" />

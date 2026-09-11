@@ -181,7 +181,8 @@ export const PRICING_PLANS: PricingPlan[] = [
       "Guided 4-step Rhema devotional journaling",
       "Local device journal history & search",
       "Daily habit streaks & devotion calendar",
-      "Verse bookmarks & color highlighters"
+      "Verse bookmarks & color highlighters",
+      "100% ad-free & distraction-free forever"
     ],
     cta: "Start Free"
   },
@@ -199,7 +200,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       "Automatic Cloud Backup (Never lose a single entry)",
       "Multi-device synchronization across all devices",
       "Luxury Leather & Vintage Covers (Handcrafted & gold foil)",
-      "Independent, ad-free sanctuary"
+      "Directly sustains our independent ad-free mission"
     ],
     cta: "Start 7-Day Free Trial"
   },
