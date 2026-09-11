@@ -88,7 +88,7 @@ export const FeatureShowcase: React.FC = () => {
                 {[
                   "Permanently bundled offline KJV Bible",
                   "Downloadable translations (BSB, WEB, Tagalog, Cebuano, etc.)",
-                  "Red-letter text for the words of Christ",
+                  "Reverent serif typography designed for reflection",
                   "Fast book, chapter, and verse navigation",
                   "Gentle highlighters and ribbon bookmark collections"
                 ].map((item, idx) => (

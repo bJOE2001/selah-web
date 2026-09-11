@@ -84,7 +84,7 @@ export const FEATURES: FeatureItem[] = [
     bullets: [
       "Permanently bundled offline KJV Bible",
       "Downloadable translations (BSB, WEB, Tagalog, Cebuano, etc.)",
-      "Red-letter words of Christ",
+      "Clean, reverent editorial typography",
       "Instant book, chapter & verse navigation",
       "Gentle color highlighters & ribbon bookmarks"
     ],
