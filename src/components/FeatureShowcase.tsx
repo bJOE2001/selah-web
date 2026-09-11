@@ -85,10 +85,10 @@ export const FeatureShowcase: React.FC = () => {
               
               <ul className="space-y-3 pt-2">
                 {[
-                  "Complete offline KJV SQLite database (instant load)",
+                  "Permanently bundled offline KJV SQLite database",
+                  "Downloadable modern translations (NLT, NIV, ESV, NKJV, etc.)",
                   "Red-letter text for the words of Christ",
                   "Fast book, chapter, and verse navigation",
-                  "Adjustable literary serif typography & line spacing",
                   "Gentle highlighters and ribbon bookmark collections"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-sm sm:text-base text-stone-700 dark:text-stone-300">
@@ -252,9 +252,9 @@ export const FeatureShowcase: React.FC = () => {
               <ul className="space-y-3 pt-2">
                 {[
                   "Dual views: Ruled Notebook View & Chronological Timeline",
+                  "Handcrafted leather, gold foil & vintage journal covers",
                   "College-ruled paper aesthetic with fine margin accents",
-                  "Full-text search across all personal reflections & Scripture",
-                  "Bookmark your deepest milestones for instant retrieval"
+                  "Full-text search across all personal reflections & Scripture"
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-sm sm:text-base text-stone-700 dark:text-stone-300">
                     <CheckCircle2 className="w-5 h-5 text-[#5B8C5A] shrink-0 mt-0.5" />

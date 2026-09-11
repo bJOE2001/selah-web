@@ -82,10 +82,10 @@ export const FEATURES: FeatureItem[] = [
     tagline: "Pure King James Scripture designed with reverent editorial clarity.",
     description: "Read the ancient text without notification badges, unsolicited banners, or algorithmic feeds. Enjoy complete offline access anywhere you retreat.",
     bullets: [
-      "Complete offline King James Version (KJV)",
+      "Permanently bundled offline KJV Bible",
+      "Downloadable translations (NLT, NIV, ESV, NKJV, etc.)",
       "Red-letter words of Christ",
       "Instant book, chapter & verse navigation",
-      "Adjustable literary serif typography & line height",
       "Gentle color highlighters & ribbon bookmarks"
     ],
     screenshot: "/assets/images/store_screenshots/screenshot_2_bible.png",
@@ -125,13 +125,13 @@ export const FEATURES: FeatureItem[] = [
     id: "journal",
     tag: "Aesthetic Notebook",
     title: "A journal that feels like yours.",
-    tagline: "Tactile college-ruled pages designed like fine stationery.",
-    description: "Revisit past seasons of prayer, see how God answered quiet questions from months ago, and flip through ruled pages with washi tape accents.",
+    tagline: "Tactile college-ruled pages and handcrafted leather covers.",
+    description: "Revisit past seasons of prayer, see how God answered quiet questions from months ago, and customize your journal with handcrafted leather and vintage styles.",
     bullets: [
       "Dual experience: Notebook View & Timeline View",
+      "Handcrafted leather, gold foil & vintage covers",
       "College-ruled texture with genuine stationery warmth",
-      "Full text search across all personal reflections",
-      "Filter by bookmarked and milestone entries"
+      "Full text search across all personal reflections"
     ],
     screenshot: "/assets/images/store_screenshots/screenshot_3_journal.png",
     accentColor: "#5B8C5A"
@@ -177,49 +177,47 @@ export const PRICING_PLANS: PricingPlan[] = [
     period: "Forever free",
     features: [
       "Complete offline KJV Bible",
-      "Distraction-free Scripture reader",
-      "Guided Rhema 4-step journaling",
-      "Local device journal history",
-      "Daily habit & streak tracking",
-      "Verse bookmarks & color highlights"
+      "Downloadable translations (NLT, NIV, ESV, NKJV, etc.)",
+      "Guided 4-step Rhema devotional journaling",
+      "Local device journal history & search",
+      "Daily habit streaks & devotion calendar",
+      "Verse bookmarks & color highlighters"
     ],
     cta: "Start Free"
   },
   {
     id: "grace",
     name: "Selah Grace",
-    tagline: "Full access to our encrypted sanctuary and fine covers.",
-    badge: "Most Cherished",
+    tagline: "Automatic cloud backup, luxury covers, and multi-device sync.",
+    badge: "Most Popular",
     popular: true,
-    monthlyPrice: "$3.99",
-    annualPrice: "$29.99",
-    period: "/ year ($2.50/mo)",
+    monthlyPrice: "$2.99",
+    annualPrice: "$19.99",
+    period: "/ year ($1.66/mo)",
     features: [
       "Everything in Begin",
-      "Encrypted Cloud Vault (Zero-knowledge backup)",
-      "Seamless multi-device synchronization",
-      "Unlimited journal notebooks & custom covers",
-      "Luxury leather & vintage cover designs",
-      "Full-text search & devotional export"
+      "Automatic Cloud Backup (Never lose a single entry)",
+      "Multi-device synchronization across all devices",
+      "Luxury Leather & Vintage Covers (Handcrafted & gold foil)",
+      "Independent, ad-free sanctuary"
     ],
-    cta: "Begin 14-Day Free Trial"
+    cta: "Start 7-Day Free Trial"
   },
   {
     id: "patron",
-    name: "Patron",
-    tagline: "One timeless investment to support ongoing craftsmanship.",
-    badge: "One-Time",
-    lifetimePrice: "$79",
-    period: "Single payment, lifetime access",
+    name: "Lifetime Pass",
+    tagline: "One-time payment, forever yours. Timeless support for independent Christian craft.",
+    badge: "Lifetime Ownership",
+    lifetimePrice: "$49.99",
+    period: "One-time payment, forever yours",
     features: [
-      "Everything in Selah Grace for life",
-      "No recurring subscriptions, ever",
-      "Exclusive vintage leather journal theme",
-      "Handcrafted Patron badge on journal covers",
-      "Direct line to the craft team & future features",
-      "Includes all upcoming translation releases"
+      "Everything in Selah Grace forever",
+      "Automatic Cloud Backup & device sync",
+      "All luxury leather & vintage cover designs",
+      "Zero recurring subscriptions, forever",
+      "Directly sustains an independent, ad-free sanctuary"
     ],
-    cta: "Become a Patron"
+    cta: "Get Lifetime Access"
   }
 ];
 
