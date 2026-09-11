@@ -93,7 +93,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
                   "Guided Rhema 4-step journaling",
                   "Local journal history & search",
                   "Daily habit & streak tracking",
-                  "Standard shareable Scripture cards"
+                  "Verse bookmarks & color highlights"
                 ].map((f, i) => (
                   <li key={i} className="flex items-start gap-2.5">
                     <Check className="w-4 h-4 text-[#3A7D3A] shrink-0 mt-0.5" />
@@ -147,7 +147,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
                   "Encrypted Cloud Vault (Zero-knowledge backup)",
                   "Seamless multi-device synchronization",
                   "Unlimited journal notebooks & custom covers",
-                  "Watermark-free Scripture cards export",
+                  "Full-text search & devotional export",
                   "Peaceful ambient sanctuary soundscapes",
                   "Biometric app lock (Face ID & PIN)"
                 ].map((f, i) => (

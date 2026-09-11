@@ -9,7 +9,6 @@ import { RhemaMethod } from "@/components/RhemaMethod";
 import { MascotSection } from "@/components/MascotSection";
 import { JournalExperience } from "@/components/JournalExperience";
 import { JournalHistory } from "@/components/JournalHistory";
-import { ScriptureCards } from "@/components/ScriptureCards";
 import { PrivacySection } from "@/components/PrivacySection";
 import { PricingSection } from "@/components/PricingSection";
 import { Testimonials } from "@/components/Testimonials";
@@ -56,10 +55,7 @@ export default function HomePage() {
         {/* 7. Journal History: Notebook View vs Timeline View */}
         <JournalHistory />
 
-        {/* 8. Shareable Scripture Cards: 3 tactile paper themes */}
-        <ScriptureCards />
-
-        {/* 9. Privacy Section: Local-first and guardian key */}
+        {/* 8. Privacy Section: Local-first and guardian key */}
         <PrivacySection />
 
         {/* 10. Membership / Pricing: Stationery membership cards */}

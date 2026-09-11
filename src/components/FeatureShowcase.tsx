@@ -283,35 +283,39 @@ export const FeatureShowcase: React.FC = () => {
 
           </div>
 
-          {/* FEATURE 5 & 6: Cards and Privacy highlight */}
+          {/* FEATURE 5 & 6: Security and Privacy highlight */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             
-            {/* Feature 5 Card: Scripture Keepsakes */}
+            {/* Feature 5 Card: Biometric App Security */}
             <div className="p-8 rounded-3xl bg-white dark:bg-[#1C1917] border border-[#E8E0D4] dark:border-stone-800 shadow-paper relative overflow-hidden flex flex-col justify-between">
               <div className="space-y-4">
-                <div className="w-12 h-12 rounded-2xl bg-[#FBECE8] dark:bg-stone-800 flex items-center justify-center text-[#C46246]">
-                  <Share2 className="w-6 h-6" />
+                <div className="w-12 h-12 rounded-2xl bg-[#EAF3EA] dark:bg-stone-800 flex items-center justify-center text-[#3A7D3A]">
+                  <Lock className="w-6 h-6" />
                 </div>
                 <h4 className="font-serif text-2xl font-bold text-stone-900 dark:text-stone-100">
-                  Keep the verse close.
+                  Held in confidence.
                 </h4>
                 <p className="font-sans text-stone-600 dark:text-stone-300 text-sm sm:text-base leading-relaxed">
-                  Turn meaningful Scriptures into high-resolution cards with three curated paper themes: Classic Linen, Minimal Clean, and Midnight Gold.
+                  Guard your private thoughts, personal prayers, and confessions with Face ID, Fingerprint, or PIN security powered by your phone&apos;s native secure hardware.
                 </p>
                 <div className="pt-2">
-                  <a href="#cards" className="text-xs font-bold uppercase tracking-wider text-[#C46246] hover:underline">
-                    View Card Gallery &rarr;
+                  <a href="#privacy" className="text-xs font-bold uppercase tracking-wider text-[#3A7D3A] hover:underline">
+                    Explore Security Features &rarr;
                   </a>
                 </div>
               </div>
 
-              {/* Decorative mini card preview */}
-              <div className="mt-8 p-4 rounded-xl bg-[#FAF7F2] dark:bg-stone-900 border border-[#E8E0D4] dark:border-stone-700 shadow-sm rotate-1">
-                <span className="text-[10px] uppercase font-bold tracking-widest text-[#C46246]">Scripture Card</span>
-                <p className="font-serif italic text-sm text-stone-800 dark:text-stone-200 mt-1">
-                  &ldquo;The LORD is my shepherd; I shall not want.&rdquo;
-                </p>
-                <span className="block text-right text-[11px] font-sans text-stone-500 mt-1">— Psalm 23:1</span>
+              {/* Decorative Biometric Badge */}
+              <div className="mt-8 p-4 rounded-xl bg-[#FAF7F2] dark:bg-stone-900 border border-[#E8E0D4] dark:border-stone-700 shadow-sm flex items-center justify-between">
+                <div>
+                  <span className="text-[10px] uppercase font-bold tracking-widest text-[#3A7D3A] block">Biometric Enclave</span>
+                  <p className="font-serif italic text-sm text-stone-800 dark:text-stone-200 mt-0.5">
+                    Face ID &bull; Fingerprint &bull; Passcode
+                  </p>
+                </div>
+                <span className="px-2.5 py-1 rounded-full bg-[#EAF3EA] dark:bg-emerald-950/60 text-[#3A7D3A] text-xs font-semibold border border-[#3A7D3A]/20">
+                  Secured
+                </span>
               </div>
             </div>
 

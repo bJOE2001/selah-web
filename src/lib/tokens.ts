@@ -137,18 +137,18 @@ export const FEATURES: FeatureItem[] = [
     accentColor: "#5B8C5A"
   },
   {
-    id: "cards",
-    tag: "Scripture Keepsakes",
-    title: "Keep the verse close.",
-    tagline: "Turn your reflections into tangible, shareable works of art.",
-    description: "Render any verse or journal excerpt into high-resolution cards with three timeless paper themes. Perfect for lockscreens, prints, or sharing with friends.",
+    id: "security",
+    tag: "Sacred Confidence",
+    title: "Held in confidence.",
+    tagline: "Biometric protection that ensures your personal prayers remain private.",
+    description: "Guard your private thoughts, personal prayers, and confessions with Face ID, Fingerprint, or custom PIN protection directly on your device.",
     bullets: [
-      "3 authentic themes: Classic Linen, Minimal Clean, Midnight Gold",
-      "Editorial typography with quotation ornaments",
-      "High-resolution image export",
-      "Zero watermarks with Selah Grace"
+      "Native Face ID and Fingerprint biometric security",
+      "Custom backup passcodes for instant unlock",
+      "Automatic screen privacy masking when switching apps",
+      "Zero unencrypted storage outside your device enclave"
     ],
-    accentColor: "#C46246"
+    accentColor: "#3A7D3A"
   },
   {
     id: "privacy",
@@ -194,8 +194,8 @@ export const PRICING_PLANS: PricingPlan[] = [
       "Distraction-free Scripture reader",
       "Guided Rhema 4-step journaling",
       "Local device journal history",
-      "Basic habit & streak tracking",
-      "Standard shareable Scripture cards"
+      "Daily habit & streak tracking",
+      "Verse bookmarks & color highlights"
     ],
     cta: "Start Free"
   },
@@ -213,7 +213,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       "Encrypted Cloud Vault (Zero-knowledge backup)",
       "Seamless multi-device synchronization",
       "Unlimited journal notebooks & custom covers",
-      "Watermark-free high-res card export",
+      "Full-text search & devotional export",
       "Peaceful ambient sanctuary soundscapes",
       "Biometric app lock & PIN protection"
     ],
