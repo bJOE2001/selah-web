@@ -83,7 +83,7 @@ export const FEATURES: FeatureItem[] = [
     description: "Read the ancient text without notification badges, unsolicited banners, or algorithmic feeds. Enjoy complete offline access anywhere you retreat.",
     bullets: [
       "Permanently bundled offline KJV Bible",
-      "Downloadable translations (NLT, NIV, ESV, NKJV, etc.)",
+      "Downloadable translations (BSB, WEB, Tagalog, Cebuano, etc.)",
       "Red-letter words of Christ",
       "Instant book, chapter & verse navigation",
       "Gentle color highlighters & ribbon bookmarks"
@@ -125,11 +125,11 @@ export const FEATURES: FeatureItem[] = [
     id: "journal",
     tag: "Aesthetic Notebook",
     title: "A journal that feels like yours.",
-    tagline: "Tactile college-ruled pages and handcrafted leather covers.",
-    description: "Revisit past seasons of prayer, see how God answered quiet questions from months ago, and customize your journal with handcrafted leather and vintage styles.",
+    tagline: "Tactile college-ruled pages and premium leather covers.",
+    description: "Revisit past seasons of prayer, see how God answered quiet questions from months ago, and customize your journal with premium leather and vintage styles.",
     bullets: [
       "Dual experience: Notebook View & Timeline View",
-      "Handcrafted leather, gold foil & vintage covers",
+      "Premium leather, gold foil & vintage covers",
       "College-ruled texture with genuine stationery warmth",
       "Full text search across all personal reflections"
     ],
@@ -177,7 +177,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     period: "Forever free",
     features: [
       "Complete offline KJV Bible",
-      "Downloadable translations (NLT, NIV, ESV, NKJV, etc.)",
+      "Downloadable translations (BSB, WEB, Tagalog, Cebuano, etc.)",
       "Guided 4-step Rhema devotional journaling",
       "Local device journal history & search",
       "Daily habit streaks & devotion calendar",
@@ -199,7 +199,7 @@ export const PRICING_PLANS: PricingPlan[] = [
       "Everything in Begin",
       "Automatic Cloud Backup (Never lose a single entry)",
       "Multi-device synchronization across all devices",
-      "Luxury Leather & Vintage Covers (Handcrafted & gold foil)",
+      "Luxury Leather & Vintage Covers (Premium & gold foil)",
       "Directly sustains our independent ad-free mission"
     ],
     cta: "Start 7-Day Free Trial"

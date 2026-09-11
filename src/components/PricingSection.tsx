@@ -89,7 +89,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
               <ul className="space-y-3.5 text-xs sm:text-sm text-stone-700 dark:text-stone-300">
                 {[
                   "Complete offline KJV Bible",
-                  "Downloadable translations (NLT, NIV, ESV, etc.)",
+                  "Downloadable translations (BSB, WEB, Tagalog, Cebuano, etc.)",
                   "Guided 4-step Rhema devotional journaling",
                   "Local device journal history & search",
                   "Daily habit streaks & devotion calendar",
@@ -154,7 +154,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
                   "Everything in Begin included",
                   "Automatic Cloud Backup (Never lose an entry)",
                   "Seamless multi-device synchronization",
-                  "Handcrafted luxury leather & vintage covers",
+                  "Premium luxury leather & vintage covers",
                   "Directly sustains our independent ad-free mission"
                 ].map((f, i) => (
                   <li key={i} className="flex items-start gap-2.5">
@@ -209,7 +209,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
                 {[
                   "Everything in Selah Grace for life",
                   "Automatic Cloud Backup & device sync",
-                  "All handcrafted leather & vintage cover designs",
+                  "All premium leather & vintage cover designs",
                   "Zero recurring subscriptions forever",
                   "Directly sustains an independent, ad-free sanctuary"
                 ].map((f, i) => (

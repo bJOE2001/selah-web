@@ -87,7 +87,7 @@ export const FeatureShowcase: React.FC = () => {
               <ul className="space-y-3 pt-2">
                 {[
                   "Permanently bundled offline KJV Bible",
-                  "Downloadable modern translations (NLT, NIV, ESV, NKJV, etc.)",
+                  "Downloadable translations (BSB, WEB, Tagalog, Cebuano, etc.)",
                   "Red-letter text for the words of Christ",
                   "Fast book, chapter, and verse navigation",
                   "Gentle highlighters and ribbon bookmark collections"
@@ -242,7 +242,7 @@ export const FeatureShowcase: React.FC = () => {
               <ul className="space-y-3 pt-2">
                 {[
                   "Dual views: Ruled Notebook View & Chronological Timeline",
-                  "Handcrafted leather, gold foil & vintage journal covers",
+                  "Premium leather, gold foil & vintage journal covers",
                   "College-ruled paper aesthetic with fine margin accents",
                   "Full-text search across all personal reflections & Scripture"
                 ].map((item, idx) => (
