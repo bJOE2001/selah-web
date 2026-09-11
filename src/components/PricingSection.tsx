@@ -129,7 +129,7 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
                 Selah Grace
               </h3>
               <p className="font-sans text-xs sm:text-sm text-stone-600 dark:text-stone-400 mt-2">
-                Encrypted cloud vault, peaceful soundscapes, and timeless stationery covers.
+                Encrypted cloud vault, luxury leather covers, and seamless multi-device backup.
               </p>
 
               <div className="mt-6 mb-8 pb-6 border-b border-[#E8E0D4] dark:border-stone-700">
@@ -147,9 +147,8 @@ export const PricingSection: React.FC<PricingSectionProps> = ({ onOpenDownload }
                   "Encrypted Cloud Vault (Zero-knowledge backup)",
                   "Seamless multi-device synchronization",
                   "Unlimited journal notebooks & custom covers",
-                  "Full-text search & devotional export",
-                  "Peaceful ambient sanctuary soundscapes",
-                  "Biometric app lock (Face ID & PIN)"
+                  "Luxury leather & vintage cover designs",
+                  "Full-text search & devotional export"
                 ].map((f, i) => (
                   <li key={i} className="flex items-start gap-2.5">
                     <Check className="w-4 h-4 text-[#3A7D3A] shrink-0 mt-0.5" />

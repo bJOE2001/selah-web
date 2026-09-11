@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, ShieldCheck, Lock, HardDrive, Ban, Cloud } from "lucide-react";
+import { ArrowLeft, ShieldCheck, HardDrive, Ban, Cloud } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -96,16 +96,6 @@ export default function PrivacyPage() {
               </h2>
               <p>
                 Selah contains <strong>no third-party advertisements</strong>. Your quiet time is never monetized. We will never sell, rent, license, or exchange your personal information or devotional entries with advertisers, data brokers, or third parties.
-              </p>
-            </section>
-
-            <section className="space-y-3">
-              <h2 className="font-serif text-xl font-bold text-stone-900 dark:text-stone-100 flex items-center gap-2">
-                <Lock className="w-5 h-5 text-[#D4A84B]" />
-                4. On-Device Biometric Protection
-              </h2>
-              <p>
-                Selah supports optional Face ID, Fingerprint, or PIN security. Biometric verification occurs strictly within your mobile operating system&apos;s secure enclave and is never transmitted or seen by Selah.
               </p>
             </section>
 

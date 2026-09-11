@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X, Sun, Moon, Download, Sparkles } from "lucide-react";
-import { SoundscapePlayer } from "./SoundscapePlayer";
 
 interface NavbarProps {
   onOpenDownload: () => void;
@@ -91,9 +90,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenDownload }) => {
 
         {/* Action Controls */}
         <div className="hidden md:flex items-center gap-3">
-          {/* Soundscape Ambient Generator */}
-          <SoundscapePlayer />
-
           {/* Theme Toggle Button */}
           <button
             onClick={toggleTheme}
@@ -152,11 +148,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenDownload }) => {
           </nav>
 
           <div className="pt-3 border-t border-[#E8E0D4] dark:border-stone-800 flex flex-col gap-3">
-            <div className="flex items-center justify-between px-1">
-              <span className="text-xs text-stone-500 dark:text-stone-400">Ambient sound</span>
-              <SoundscapePlayer />
-            </div>
-
             <button
               onClick={() => {
                 setMobileMenuOpen(false);

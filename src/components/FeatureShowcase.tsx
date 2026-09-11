@@ -283,78 +283,40 @@ export const FeatureShowcase: React.FC = () => {
 
           </div>
 
-          {/* FEATURE 5 & 6: Security and Privacy highlight */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            
-            {/* Feature 5 Card: Biometric App Security */}
-            <div className="p-8 rounded-3xl bg-white dark:bg-[#1C1917] border border-[#E8E0D4] dark:border-stone-800 shadow-paper relative overflow-hidden flex flex-col justify-between">
-              <div className="space-y-4">
-                <div className="w-12 h-12 rounded-2xl bg-[#EAF3EA] dark:bg-stone-800 flex items-center justify-center text-[#3A7D3A]">
-                  <Lock className="w-6 h-6" />
+          {/* FEATURE 5: Local-First Sacred Privacy */}
+          <div className="rounded-3xl p-8 sm:p-12 bg-white dark:bg-[#1C1917] border border-[#E8E0D4] dark:border-stone-800 shadow-paper relative overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+              <div className="md:col-span-8 space-y-4">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#EAF3EA] dark:bg-emerald-950/60 text-[#3A7D3A] text-xs font-semibold uppercase tracking-wider border border-[#3A7D3A]/20">
+                  <ShieldCheck className="w-3.5 h-3.5" />
+                  05 / Local-First Privacy
                 </div>
-                <h4 className="font-serif text-2xl font-bold text-stone-900 dark:text-stone-100">
-                  Held in confidence.
-                </h4>
-                <p className="font-sans text-stone-600 dark:text-stone-300 text-sm sm:text-base leading-relaxed">
-                  Guard your private thoughts, personal prayers, and confessions with Face ID, Fingerprint, or PIN security powered by your phone&apos;s native secure hardware.
-                </p>
-                <div className="pt-2">
-                  <a href="#privacy" className="text-xs font-bold uppercase tracking-wider text-[#3A7D3A] hover:underline">
-                    Explore Security Features &rarr;
-                  </a>
-                </div>
-              </div>
-
-              {/* Decorative Biometric Badge */}
-              <div className="mt-8 p-4 rounded-xl bg-[#FAF7F2] dark:bg-stone-900 border border-[#E8E0D4] dark:border-stone-700 shadow-sm flex items-center justify-between">
-                <div>
-                  <span className="text-[10px] uppercase font-bold tracking-widest text-[#3A7D3A] block">Biometric Enclave</span>
-                  <p className="font-serif italic text-sm text-stone-800 dark:text-stone-200 mt-0.5">
-                    Face ID &bull; Fingerprint &bull; Passcode
-                  </p>
-                </div>
-                <span className="px-2.5 py-1 rounded-full bg-[#EAF3EA] dark:bg-emerald-950/60 text-[#3A7D3A] text-xs font-semibold border border-[#3A7D3A]/20">
-                  Secured
-                </span>
-              </div>
-            </div>
-
-            {/* Feature 6 Card: Local-First Sacred Privacy */}
-            <div className="p-8 rounded-3xl bg-white dark:bg-[#1C1917] border border-[#E8E0D4] dark:border-stone-800 shadow-paper relative overflow-hidden flex flex-col justify-between">
-              <div className="space-y-4">
-                <div className="w-12 h-12 rounded-2xl bg-[#EBF2F6] dark:bg-stone-800 flex items-center justify-center text-[#4A7C9B]">
-                  <ShieldCheck className="w-6 h-6" />
-                </div>
-                <h4 className="font-serif text-2xl font-bold text-stone-900 dark:text-stone-100">
+                <h4 className="font-serif text-3xl sm:text-4xl font-bold text-stone-900 dark:text-stone-100">
                   Your reflections are yours.
                 </h4>
-                <p className="font-sans text-stone-600 dark:text-stone-300 text-sm sm:text-base leading-relaxed">
-                  Your prayers are deeply sacred. Selah is built local-first on SQLite: your entries live on your device by default, with zero advertising and optional encrypted cloud backup.
+                <p className="font-sans text-stone-600 dark:text-stone-300 text-base leading-relaxed max-w-2xl">
+                  Your prayers are deeply sacred between you and God. Selah is built local-first on SQLite: your entries live on your device by default, with zero advertising and optional encrypted cloud backup when you choose.
                 </p>
                 <div className="pt-2">
-                  <a href="#privacy" className="text-xs font-bold uppercase tracking-wider text-[#4A7C9B] hover:underline">
-                    Read Privacy Commitment &rarr;
+                  <a href="#privacy" className="text-sm font-bold text-[#3A7D3A] hover:underline inline-flex items-center gap-1.5">
+                    <span>Read our privacy commitment</span>
+                    <span>&rarr;</span>
                   </a>
                 </div>
               </div>
 
-              <div className="mt-8 flex items-center gap-4 p-4 rounded-xl bg-[#FAF7F2] dark:bg-stone-900 border border-[#E8E0D4] dark:border-stone-700">
-                <div className="w-14 h-14 shrink-0">
+              <div className="md:col-span-4 flex justify-center">
+                <div className="relative w-40 sm:w-48 aspect-square flex items-center justify-center p-4 rounded-2xl bg-[#FAF7F2] dark:bg-stone-900 border border-[#E8E0D4] dark:border-stone-800 shadow-sm">
                   <Image
                     src="/assets/images/mascot-guardian-key-transparent.png"
                     alt="Guardian Key Mascot"
-                    width={56}
-                    height={56}
-                    className="object-contain"
+                    width={180}
+                    height={180}
+                    className="w-full h-auto object-contain drop-shadow-md"
                   />
-                </div>
-                <div className="text-xs text-stone-600 dark:text-stone-400">
-                  <span className="font-bold text-stone-900 dark:text-stone-100 block">Zero-Knowledge Cloud Vault</span>
-                  Client-side encrypted backups with Supabase when you choose.
                 </div>
               </div>
             </div>
-
           </div>
 
         </div>

@@ -137,20 +137,6 @@ export const FEATURES: FeatureItem[] = [
     accentColor: "#5B8C5A"
   },
   {
-    id: "security",
-    tag: "Sacred Confidence",
-    title: "Held in confidence.",
-    tagline: "Biometric protection that ensures your personal prayers remain private.",
-    description: "Guard your private thoughts, personal prayers, and confessions with Face ID, Fingerprint, or custom PIN protection directly on your device.",
-    bullets: [
-      "Native Face ID and Fingerprint biometric security",
-      "Custom backup passcodes for instant unlock",
-      "Automatic screen privacy masking when switching apps",
-      "Zero unencrypted storage outside your device enclave"
-    ],
-    accentColor: "#3A7D3A"
-  },
-  {
     id: "privacy",
     tag: "Sacred Privacy",
     title: "Your reflections are yours.",
@@ -159,7 +145,7 @@ export const FEATURES: FeatureItem[] = [
     bullets: [
       "Local-first SQLite storage on your phone",
       "Zero third-party advertisements or trackers",
-      "Biometric lock (Face ID / Fingerprint)",
+      "Works 100% offline without creating an account",
       "Optional client-encrypted Cloud Vault backup"
     ],
     screenshot: "/assets/images/mascot-guardian-key-transparent.png",
@@ -213,9 +199,8 @@ export const PRICING_PLANS: PricingPlan[] = [
       "Encrypted Cloud Vault (Zero-knowledge backup)",
       "Seamless multi-device synchronization",
       "Unlimited journal notebooks & custom covers",
-      "Full-text search & devotional export",
-      "Peaceful ambient sanctuary soundscapes",
-      "Biometric app lock & PIN protection"
+      "Luxury leather & vintage cover designs",
+      "Full-text search & devotional export"
     ],
     cta: "Begin 14-Day Free Trial"
   },
